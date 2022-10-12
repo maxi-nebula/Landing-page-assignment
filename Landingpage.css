@@ -130,7 +130,33 @@ height: 200px;
 {
 
     width:250px;
-    height: 200px;
+   
     font-size: 16px;
     font-weight: bold;;
+}
+.quote-section
+{
+    background-color: #E5E7EB;
+    padding:60px;
+    margin: 0px;
+  
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+
+.quote-section p
+{  width: 850px;
+  
+    font-size:36px;
+    font-style:italic
+}
+
+.quote-section-author
+{
+
+    font-size: 22px;
+    font-weight: 1000;
 }
