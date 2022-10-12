@@ -109,19 +109,28 @@ color:#F9FAF8;
     font-size:36px;
     font-weight: bolder;
     color:#1F2937;
+    text-align: center;
 }
 
 .imageandinfo{
 
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+  
 }
 
-.image-container
+.image-container img
+{
+width:250px;
+height: 200px;
+}
+
+.image-container p
 {
 
-    border:1px solid red;
-    width:100px;
-    height: 100px;
+    width:250px;
+    height: 200px;
+    font-size: 16px;
+    font-weight: bold;;
 }
