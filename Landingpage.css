@@ -75,7 +75,7 @@ color:#F9FAF8;
 .top-section-button
 {
 
-    width:80px;
+    width:100px;
     height: 50px;
     background-color: #3882F6;
     border-radius: 8px;
@@ -83,9 +83,10 @@ color:#F9FAF8;
 .top-section-image
 {  
 
-    margin-left: 30px;
+  
     width:500px;
     height: 300px;
+    border-radius: 8px;;
 }
 
 
@@ -124,6 +125,7 @@ color:#F9FAF8;
 {
 width:250px;
 height: 200px;
+border-radius: 8px;
 }
 
 .image-container p
@@ -159,4 +161,59 @@ height: 200px;
 
     font-size: 22px;
     font-weight: 1000;
+}
+
+.call-to-action-section
+{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.call-to-action
+{
+    background-color: #3882F6;
+    border-radius: 2%;
+    padding:20px;
+    height:80px;
+    width:800px;
+    display: flex;
+    gap:20px;
+    
+}
+
+.call-to-action p{
+
+    color:white;
+    font-size:16px;
+    font-weight: bolder;
+}
+
+.call-to-action button{
+    width:100px;
+    height: 50px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border:3px solid #F9FAF8;
+    border-radius:8px;
+    
+}
+
+.footer{
+
+    background-color:#1F2937;
+    margin-top:20px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.footer p{
+
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+
 }
